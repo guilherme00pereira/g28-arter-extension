@@ -1,0 +1,14 @@
+{
+    "name": "g28/g28-arter-extension",
+    "autoload": {
+        "psr-4": {
+            "G28\\ArterExtension\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Pereira"
+        }
+    ],
+    "require": {}
+}
