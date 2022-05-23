@@ -17,7 +17,8 @@ class Startup {
 
 	public function run( string $root ) {
 		add_action( 'plugins_loaded', function () use ( $root ) {
-			
+			Plugin::getInstance($root);
+			new Controller();
 		} );
         add_action( 'elementor/widgets/widgets_registered', array( $this, 'initWidgets' ) );
 

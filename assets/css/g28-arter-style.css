@@ -1,0 +1,24 @@
+.g28-art-project-category {
+    border-radius: 0px;
+    color: #2F8CD7 !important;
+    font-weight: 700;
+    box-shadow: none;
+    background-color: white;
+    padding-left: 0px;
+}
+
+.g28-art-project-category a {
+    color: #2F8CD7 !important;
+}
+
+.g28-art-menu-bar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g28-art-menu-bar-header ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}

@@ -81,11 +81,7 @@ class G28_HeroBanner extends Arter_Hero_Banner_Widget {
 			          </div>
 			          <?php endif; ?>
 			        </div>
-			        <!-- main title end -->
-			        <?php if ( $settings['image'] ) : ?>
-			        <!-- photo -->
-			        <img src="<?php echo esc_url( $settings['image']['url'] ); ?>" class="art-banner-photo" alt="<?php echo esc_html__( 'Photo', 'arter-plugin' ); ?>">
-			        <?php endif; ?>
+			        
 			      </div>
 			      <!-- banner overlay end -->
 			    </div>
